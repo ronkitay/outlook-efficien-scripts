@@ -66,12 +66,6 @@ Sub EmphesizeSelectedTextAsPurple()
     EmphesizeSelectedText (RGB(112, 48, 177))
 End Sub
 
-' Name: EmphesizeSelectedTextAsGrey
-' Description: Turns the selected text BOLD and changes its color to be Grey - RGB(192, 192, 192)
-Sub HighlightSelectedTextAsGrey()
-    HighlightSelectedText (RGB(192, 192, 192))
-End Sub
-
 ' ------------------------------------------------------------------------------------------------------------------------
 
 ' Name: HighlightSelectedText
