@@ -29,3 +29,12 @@ Sub FindSelectedMessages()
     Call Application.ActiveExplorer.Search("""" & msg.Subject & """", olSearchScopeAllFolders)
     
 End Sub
+
+' Name: FindSomeCategoryMessages
+' Description: Finds all emails with category "Some Category"
+Sub FindSomeCategoryMessages()
+    'On Error Resume Next
+         
+    Call Application.ActiveExplorer.Search("category:=""Some Category""", olSearchScopeAllFolders)
+    
+End Sub
